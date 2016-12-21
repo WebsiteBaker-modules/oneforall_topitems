@@ -172,7 +172,7 @@ if (!function_exists('oneforall_topitems')) {
 
 							// For media add WB_URL to the link
 							if ($types[$field_id] == 'media' && !empty($values[$field_id])) {
-								$values[$field_id] = WB_URL.$values[$field_id];
+								$values[$field_id] = WB_URL.MEDIA_DIRECTORY.$values[$field_id];
 							}
 
 							// If value is serialized, unserialize it and convert it to string

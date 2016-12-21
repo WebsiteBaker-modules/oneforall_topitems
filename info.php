@@ -23,6 +23,9 @@
  
 	DEVELOPMENT HISTORY:
 
+   v0.3  (Christoph Marti; 11/24/2016)
+	 + Fixed file url of type 'media'
+
    v0.2  (Christoph Marti; 04/18/2016)
 	 + png thumbs did not show up after OneForAll got better support for png images and thumbs
 	   (added in OneForAll v0.9)
@@ -38,7 +41,7 @@
 $module_directory   = 'oneforall_topitems';
 $module_name        = 'OneForAll TopItems';
 $module_function    = 'snippet';
-$module_version     = '0.2';
+$module_version     = '0.3';
 $module_platform    = '2.7';
 $module_author      = 'Christoph Marti';
 $module_license     = 'GNU General Public License';
